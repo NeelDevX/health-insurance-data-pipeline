@@ -33,7 +33,7 @@ This project builds a modular data engineering workflow using Docker Compose, in
 ## In Terminal
 
 ```bash
-git clone https://github.com/<your-org-or-username>/practicum_project.git
+git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
 cd practicum_project
 
 docker compose up --build
