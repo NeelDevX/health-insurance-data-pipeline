@@ -1,0 +1,118 @@
+services:
+  # Spark + Jupyter Lab
+  spark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: practicum_proj_spark
+    container_name: jupyter_spark_lab
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
+      - ./iceberg_warehouse:/home/jovyan/iceberg_warehouse
+    command: start-notebook.sh --ServerApp.token='' --ServerApp.password='' --ServerApp.password_required=False
+
+
+  # Superset
+  superset:
+    image: apache/superset:3.0.0
+    container_name: superset_app
+    ports:
+      - "8088:8088"
+    environment:
+      - SUPERSET_SECRET_KEY=supersecretkey
+      - ADMIN_USERNAME=admin
+      - ADMIN_EMAIL=admin@superset.com
+      - ADMIN_PASSWORD=admin
+    volumes:
+      - superset_home:/app/superset_home
+    depends_on:
+      - superset_postgres
+    command: >
+      bash -c "
+        superset db upgrade &&
+        superset fab create-admin --username admin --firstname Neel --lastname Kalavadiya --email admin@superset.com --password admin &&
+        superset init &&
+        superset run -h 0.0.0.0 -p 8088 --with-threads --reload --debug"
+
+  # Superset metadata DB
+  superset_postgres:
+    image: postgres:15
+    container_name: superset_postgres
+    environment:
+      POSTGRES_USER: superset
+      POSTGRES_PASSWORD: superset
+      POSTGRES_DB: superset
+    volumes:
+      - superset_db_data:/var/lib/postgresql/data
+
+
+  # airflow
+  airflow:
+    image: apache/airflow:2.8.1
+    container_name: airflow_app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - airflow_postgres
+      - airflow_redis
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'vokKqRXxDj_1fQcyLI4EcKJsFbBHnHrw38xDVZtGxiA='
+      AIRFLOW__WEBSERVER__SECRET_KEY: 'hek3EW_59xR3e_RECGNN4oy-qlsbEGqcNJ_XzOJ3DEQ'
+      AIRFLOW__CELERY__BROKER_URL: redis://airflow_redis:6379/0
+      AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@airflow_postgres:5432/airflow
+      _PIP_ADDITIONAL_REQUIREMENTS: apache-airflow-providers-postgres
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+    command: >
+      bash -c "
+        airflow db init &&
+        airflow users create --username airflow --password airflow --firstname Neel --lastname Kalavadiya --role Admin --email admin@example.com &&
+        exec airflow webserver"
+
+  # airflow-scheduler    
+  airflow-scheduler:
+    image: apache/airflow:2.8.1
+    container_name: airflow-scheduler
+    restart: always
+    depends_on:
+      - airflow
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'vokKqRXxDj_1fQcyLI4EcKJsFbBHnHrw38xDVZtGxiA='
+      AIRFLOW__WEBSERVER__SECRET_KEY: 'hek3EW_59xR3e_RECGNN4oy-qlsbEGqcNJ_XzOJ3DEQ'
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+    command: >
+      bash -c "airflow scheduler"
+
+  # airflow metadata DB
+  airflow_postgres:
+    image: postgres:15
+    container_name: airflow_postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow_db_data:/var/lib/postgresql/data
+
+# airflow-redis
+  airflow_redis:
+    image: redis:7
+    container_name: airflow_redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  superset_home:
+  superset_db_data:
+  airflow_db_data:

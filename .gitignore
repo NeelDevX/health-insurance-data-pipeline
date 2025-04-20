@@ -1,0 +1,8 @@
+iceberg_warehouse/raw_data/
+iceberg_warehouse/bronze/
+iceberg_warehouse/silver/
+iceberg_warehouse/gold/
+iceberg_warehouse/checkpoint_parquet/
+airflow
+Code
+iceberg_warehouse/raw_data/
