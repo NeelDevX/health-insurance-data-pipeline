@@ -1,14 +1,13 @@
-# 🏥 Healthcare Data Engineering Project
+# Healthcare Data Engineering Project
 
-An end-to-end modular data pipeline for processing, transforming, and analyzing U.S. healthcare insurance data — containerized with Docker Compose.
+An end-to-end modular data pipeline for processing, transforming, and analyzing U.S. healthcare insurance data — containerized with Docker Compose. This project aims to streamline how hospitals and insurance providers analyze healthcare costs and coverage options. By organizing and processing raw hospital data into clean, structured insights, it helps identify the best insurance plans for different treatments and hospitals. The end goal is to support data-driven decision-making that improves transparency, optimizes plan selection, and ultimately enhances patient access to affordable care.
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
-- <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="20"/> **Apache Spark** + <img src="https://iceberg.apache.org/img/iceberg-logo.png" width="20"/> **Iceberg** + <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="20"/> **JupyterLab** – data ingestion and transformation
-- <img src="https://superset.apache.org/images/superset-logo-horiz.png" width="20"/> **Apache Superset** – BI dashboards and visual analytics
-- <img src="https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png" width="20"/> **Apache Airflow** – weekly ETL orchestration
-- <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="20"/> **PostgreSQL** – gold-layer data storage
-- <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Redis_Logo.svg" width="20"/> **Redis** – Airflow's backend broker
+- 🧪 **Apache Spark + Iceberg + JupyterLab** – data ingestion and transformation
+- 📊 **Apache Superset** – BI dashboards and visual analytics
+- ⏰ **Apache Airflow** – weekly ETL orchestration
+- 🐘 **PostgreSQL** – gold-layer data storage
 
 ---
 
