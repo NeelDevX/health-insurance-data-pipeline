@@ -13,7 +13,7 @@ An end-to-end modular data pipeline for processing, transforming, and analyzing 
 
 ## 📁 Folder Structure
 
-````bash
+```bash
 health-insurance-data-pipeline/
 ├── docs/
 │   ├── Healthcare_Project_Report.pdf
@@ -37,7 +37,6 @@ git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
 cd health-insurance-data-pipeline
 
 docker compose up --build
-````
 
 ## Project Materials
 
