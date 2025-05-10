@@ -1,73 +1,47 @@
 # 🏥 Healthcare Data Engineering Project
 
-This project builds a modular data engineering workflow using Docker Compose, integrating:
+An end-to-end modular data pipeline for processing, transforming, and analyzing U.S. healthcare insurance data — containerized with Docker Compose.
 
-- 🧪 **Apache Spark + Iceberg + Jupyter Lab** – for data transformation
-- 📊 **Apache Superset** – for BI dashboards and visual analytics
-- ⏰ **Apache Airflow** – for scheduling weekly ETL jobs
-- 🐘 **PostgreSQL** – for storing gold-layer data
-- 🧠 **Redis** – for Airflow's broker backend
+### 🛠️ Tech Stack
 
----
-
-## 📁 Folder Structure
-
-```bash
-.
-├── Dockerfile                    # Custom Spark + Iceberg + Jupyter image
-├── docker-compose.yml           # Multi-container setup
-├── notebooks/                   # Your Jupyter notebooks (Bronze → Gold)
-├── iceberg_warehouse/           # Iceberg table warehouse
-├── airflow/
-│   ├── dags/                    # Airflow DAGs (ETL scheduling)
-│   ├── logs/
-│   └── plugins/
-└── README.md
-```
-
-## In Terminal
-
-```bash
-git clone https://github.com/<your-org-or-username>/practicum_project.git
-cd practicum_project
-
-docker compose up --build
-```
-
-# 🏥 Healthcare Data Engineering Project
-
-An end-to-end data engineering pipeline for processing, transforming, and analyzing healthcare insurance data. Built using Apache Spark, Apache Iceberg, PostgreSQL, Apache Airflow, and Apache Superset — fully containerized with Docker Compose.
-
-This project builds a modular data engineering workflow using Docker Compose, integrating:
-
-- 🧪 **Apache Spark + Iceberg + Jupyter Lab** – for data transformation
-- 📊 **Apache Superset** – for BI dashboards and visual analytics
-- ⏰ **Apache Airflow** – for scheduling weekly ETL jobs
-- 🐘 **PostgreSQL** – for storing gold-layer data
-- 🧠 **Redis** – for Airflow's broker backend
+- 🧪 **Apache Spark + Iceberg + JupyterLab** – data ingestion and transformation
+- 📊 **Apache Superset** – BI dashboards and visual analytics
+- ⏰ **Apache Airflow** – weekly ETL orchestration
+- 🐘 **PostgreSQL** – gold-layer data storage
+- 🧠 **Redis** – Airflow's backend broker
 
 ---
 
 ## 📁 Folder Structure
 
-```bash
-.
-├── Dockerfile                    # Custom Spark + Iceberg + Jupyter image
-├── docker-compose.yml           # Multi-container setup
-├── notebooks/                   # Your Jupyter notebooks (Bronze → Gold)
+````bash
+health-insurance-data-pipeline/
+├── docs/
+│   ├── Healthcare_Project_Report.pdf
+│   └── Presentation_Slides.pdf
+├── Dockerfile                    # Spark + Iceberg + Jupyter base image
+├── docker-compose.yml           # Multi-container orchestration
+├── Code/                        # Jupyter notebooks (Bronze → Silver → Gold)
 ├── iceberg_warehouse/           # Iceberg table warehouse
 ├── airflow/
-│   ├── dags/                    # Airflow DAGs (ETL scheduling)
-│   ├── logs/
-│   └── plugins/
+│   ├── dags/                    # Airflow DAGs for each ETL stage
+│   ├── logs/                    # Airflow logs
+│   └── scripts/                 # Python functions used by DAGs
 └── README.md
-```
+
+
 
 ## In Terminal
 
 ```bash
 git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
-cd practicum_project
+cd health-insurance-data-pipeline
 
 docker compose up --build
-```
+````
+
+## Project Materials
+
+📄 [Project Report](docs/Healthcare_Project_Report.pdf)  
+🎞️ [Presentation Slides](<docs/Milestone_2_(15_April_2025).pdf>)
+🎞️ [Presentation Slides](<docs/Milestone_3_(06_May_2025).pdf>)

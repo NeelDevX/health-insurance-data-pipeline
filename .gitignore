@@ -1,1 +1,10 @@
 iceberg_warehouse/
+
+# Exclude editable docs (only keep PDFs)
+*.pptx
+*.docx
+*.key
+*.pages
+*.odt
+*.odp
+*.mov
