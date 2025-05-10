@@ -1,13 +1,17 @@
 # Healthcare Data Engineering Project
 
-An end-to-end modular data pipeline for processing, transforming, and analyzing U.S. healthcare insurance data — containerized with Docker Compose. This project aims to streamline how hospitals and insurance providers analyze healthcare costs and coverage options. By organizing and processing raw hospital data into clean, structured insights, it helps identify the best insurance plans for different treatments and hospitals. The end goal is to support data-driven decision-making that improves transparency, optimizes plan selection, and ultimately enhances patient access to affordable care.
+An end-to-end modular data pipeline for processing, transforming, and analyzing U.S. healthcare insurance data — containerized with Docker Compose.
+
+This project aims to streamline how hospitals and insurance providers analyze healthcare costs and coverage options. By organizing and processing raw hospital data into clean, structured insights, it helps identify the best insurance plans for different treatments and hospitals. The end goal is to support data-driven decision-making that improves transparency, optimizes plan selection, and ultimately enhances patient access to affordable care.
+
+---
 
 ### 🛠️ Tech Stack
 
-- 🧪 **Apache Spark + Iceberg + JupyterLab** – data ingestion and transformation
-- 📊 **Apache Superset** – BI dashboards and visual analytics
-- ⏰ **Apache Airflow** – weekly ETL orchestration
-- 🐘 **PostgreSQL** – gold-layer data storage
+- 🧪 **Apache Spark + Iceberg + JupyterLab** – data ingestion and transformation  
+- 📊 **Apache Superset** – BI dashboards and visual analytics  
+- ⏰ **Apache Airflow** – weekly ETL orchestration  
+- 🐘 **PostgreSQL** – gold-layer data storage   
 
 ---
 
@@ -30,6 +34,7 @@ health-insurance-data-pipeline/
 
 
 
+
 ## In Terminal
 
 ```bash
@@ -41,6 +46,6 @@ docker compose up --build
 
 ## Project Materials
 
-📄 [Project Report](docs/Healthcare_Project_Report.pdf)<br>
-🎞️ [Milestone 2 Slides](docs/Milestone_2_(15_April_2025).pdf)<br>
-🎞️ [Milestone 3 Slides](docs/Milestone_3_(06_May_2025).pdf)
+📄 [Project Report](docs/Healthcare_Project_Report.pdf)  
+🎞️ [Milestone 2 Slides](docs/Milestone_2_(15_April_2025).pdf)  
+🎞️ [Milestone 3 Slides](docs/Milestone_3_(06_May_2025).pdf)  
