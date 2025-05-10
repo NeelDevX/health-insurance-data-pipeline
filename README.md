@@ -37,9 +37,10 @@ git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
 cd health-insurance-data-pipeline
 
 docker compose up --build
+```
 
 ## Project Materials
 
 📄 [Project Report](docs/Healthcare_Project_Report.pdf)<br>
-🎞️ [Milestone 2 Slides](<docs/Milestone_2_(15_April_2025).pdf>)<br>
-🎞️ [Milestone 3 Slides](<docs/Milestone_3_(06_May_2025).pdf>)
+🎞️ [Milestone 2 Slides](docs/Milestone_2_(15_April_2025).pdf)<br>
+🎞️ [Milestone 3 Slides](docs/Milestone_3_(06_May_2025).pdf)
