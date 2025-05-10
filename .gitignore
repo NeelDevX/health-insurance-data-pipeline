@@ -8,3 +8,6 @@ iceberg_warehouse/
 *.odt
 *.odp
 *.mov
+
+# Ignore Jupyter checkpoint files
+**/.ipynb_checkpoints/
