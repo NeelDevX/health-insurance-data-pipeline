@@ -1,0 +1,700 @@
+[2025-04-23T20:16:00.584+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:00.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:16:00.587+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:00.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:00.594+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:00.593+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:16:00.595+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:00.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.042 seconds
+[2025-04-23T20:16:31.036+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:31.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:16:31.038+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:31.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:31.045+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:31.044+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:16:31.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:16:31.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.037 seconds
+[2025-04-23T20:17:01.480+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:01.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:17:01.482+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:01.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:01.489+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:01.488+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:17:01.490+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:01.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.036 seconds
+[2025-04-23T20:17:31.985+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:31.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:17:31.988+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:31.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:31.995+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:31.993+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:17:31.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:17:32.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.043 seconds
+[2025-04-23T20:18:02.619+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:02.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:18:02.622+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:02.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:02.630+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:02.629+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:18:02.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:02.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.044 seconds
+[2025-04-23T20:18:33.195+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:33.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:18:33.197+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:33.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:33.208+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:33.207+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:18:33.208+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:18:33.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.048 seconds
+[2025-04-23T20:19:03.678+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:03.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:19:03.681+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:03.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:03.694+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:03.693+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:19:03.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:03.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.040 seconds
+[2025-04-23T20:19:34.187+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:34.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:19:34.190+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:34.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:34.199+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:34.196+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:19:34.199+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:19:34.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.042 seconds
+[2025-04-23T20:22:51.688+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:22:51.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:22:51.691+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:22:51.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:22:51.698+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:22:51.697+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:22:51.698+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:22:51.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.036 seconds
+[2025-04-23T20:23:22.450+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:22.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:23:22.451+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:22.451+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:22.453+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:22.453+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:23:22.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:22.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.017 seconds
+[2025-04-23T20:23:53.070+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:53.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:23:53.072+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:53.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:53.075+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:53.074+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:23:53.076+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:23:53.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.025 seconds
+[2025-04-23T20:24:23.865+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:23.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:24:23.866+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:23.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:23.869+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:23.868+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:24:23.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:23.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.017 seconds
+[2025-04-23T20:24:54.406+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:54.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:24:54.408+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:54.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:54.412+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:54.411+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:24:54.412+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:24:54.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.033 seconds
+[2025-04-23T20:25:24.973+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:25:24.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:25:24.974+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:25:24.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:25:24.977+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:25:24.977+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:25:24.977+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:25:24.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.021 seconds
+[2025-04-23T20:26:08.433+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:08.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:26:08.437+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:08.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:08.451+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:08.448+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:26:08.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:08.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.062 seconds
+[2025-04-23T20:26:38.879+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:38.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:26:38.880+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:38.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:38.882+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:38.882+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:26:38.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:26:38.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.016 seconds
+[2025-04-23T20:27:09.481+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:09.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:27:09.482+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:09.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:09.486+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:09.485+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:27:09.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:09.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.026 seconds
+[2025-04-23T20:27:40.008+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:40.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:27:40.010+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:40.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:40.012+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:40.012+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:27:40.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:27:40.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T20:28:10.455+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:10.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:28:10.456+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:10.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:10.458+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:10.458+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:28:10.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:10.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.023 seconds
+[2025-04-23T20:28:41.005+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:41.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:28:41.006+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:41.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:41.008+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:41.008+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:28:41.009+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:28:41.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.019 seconds
+[2025-04-23T20:29:11.595+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:11.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:29:11.597+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:11.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:11.600+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:11.599+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:29:11.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:11.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T20:29:42.228+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:42.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:29:42.230+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:42.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:42.232+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:42.232+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:29:42.233+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:29:42.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.020 seconds
+[2025-04-23T20:30:12.992+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:12.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:30:12.993+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:12.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:12.996+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:12.995+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:30:12.996+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:13.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.022 seconds
+[2025-04-23T20:30:43.613+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:43.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:30:43.614+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:43.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:43.617+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:43.617+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:30:43.617+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:30:43.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.019 seconds
+[2025-04-23T20:31:14.241+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:14.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:31:14.242+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:14.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:14.245+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:14.245+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:31:14.245+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:14.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.019 seconds
+[2025-04-23T20:31:44.686+0000] {processor.py:161} INFO - Started process (PID=501) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:44.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:31:44.687+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:44.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:44.689+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:44.688+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:31:44.689+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:31:44.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.017 seconds
+[2025-04-23T20:32:15.493+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:15.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:32:15.494+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:15.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:15.501+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:15.499+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:32:15.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:15.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.030 seconds
+[2025-04-23T20:32:46.057+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:46.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:32:46.058+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:46.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:46.060+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:46.059+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:32:46.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:32:46.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T20:33:16.586+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:16.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:33:16.587+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:16.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:16.590+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:16.589+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:33:16.590+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:16.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T20:33:47.130+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:47.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:33:47.132+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:47.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:47.134+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:47.134+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:33:47.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:33:47.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.021 seconds
+[2025-04-23T20:34:17.684+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:17.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:34:17.685+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:17.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:17.687+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:17.687+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:34:17.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:17.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.024 seconds
+[2025-04-23T20:34:48.237+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:48.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:34:48.238+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:48.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:48.240+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:48.240+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:34:48.240+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:34:48.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.016 seconds
+[2025-04-23T20:35:18.541+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:35:18.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:35:18.543+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:35:18.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:35:18.545+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:35:18.545+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:35:18.546+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:35:18.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.026 seconds
+[2025-04-23T20:50:26.683+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:26.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:50:26.685+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:26.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:26.689+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:26.688+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:50:26.689+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:26.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.019 seconds
+[2025-04-23T20:50:57.289+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:57.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:50:57.290+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:57.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:57.293+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:57.293+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:50:57.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:50:57.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.020 seconds
+[2025-04-23T20:51:27.820+0000] {processor.py:161} INFO - Started process (PID=803) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:27.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:51:27.821+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:27.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:27.823+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:27.823+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:51:27.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:27.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T20:51:58.354+0000] {processor.py:161} INFO - Started process (PID=832) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:58.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:51:58.356+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:58.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:58.359+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:58.359+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:51:58.360+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:51:58.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.035 seconds
+[2025-04-23T20:52:28.933+0000] {processor.py:161} INFO - Started process (PID=863) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:52:28.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T20:52:28.934+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:52:28.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:52:28.937+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:52:28.936+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:52:28.937+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T20:52:28.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T21:07:56.216+0000] {processor.py:161} INFO - Started process (PID=893) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:07:56.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:07:56.221+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:07:56.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:07:56.233+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:07:56.230+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:07:56.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:07:56.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.066 seconds
+[2025-04-23T21:08:26.906+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:08:26.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:08:26.907+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:08:26.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:08:26.909+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:08:26.908+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:08:26.909+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:08:26.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.016 seconds
+[2025-04-23T21:23:53.359+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:23:53.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:23:53.360+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:23:53.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:23:53.363+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:23:53.362+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:23:53.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:23:53.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.017 seconds
+[2025-04-23T21:39:22.164+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:22.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:39:22.167+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:22.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:22.174+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:22.173+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:39:22.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:22.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.090 seconds
+[2025-04-23T21:39:52.867+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:52.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:39:52.871+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:52.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:52.873+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:52.873+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:39:52.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:39:52.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.026 seconds
+[2025-04-23T21:55:19.453+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:19.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:55:19.456+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:19.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:19.458+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:19.458+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:55:19.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:19.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.021 seconds
+[2025-04-23T21:55:49.998+0000] {processor.py:161} INFO - Started process (PID=1077) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:49.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T21:55:49.999+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:49.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:50.001+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:50.001+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:55:50.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T21:55:50.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.020 seconds
+[2025-04-23T22:35:25.710+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T22:35:25.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T22:35:25.716+0000] {logging_mixin.py:188} INFO - [2025-04-23T22:35:25.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T22:35:25.728+0000] {logging_mixin.py:188} INFO - [2025-04-23T22:35:25.726+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T22:35:25.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T22:35:25.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.063 seconds
+[2025-04-23T23:03:24.107+0000] {processor.py:161} INFO - Started process (PID=1139) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:03:24.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T23:03:24.108+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:03:24.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:03:24.111+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:03:24.110+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:03:24.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:03:24.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.019 seconds
+[2025-04-23T23:36:36.061+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:36:36.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T23:36:36.069+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:36:36.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:36:36.079+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:36:36.077+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:36:36.087+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:36:36.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.087 seconds
+[2025-04-23T23:39:28.043+0000] {processor.py:161} INFO - Started process (PID=1199) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:39:28.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T23:39:28.044+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:39:28.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:39:28.047+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:39:28.046+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:39:28.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:39:28.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.018 seconds
+[2025-04-23T23:43:44.641+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:43:44.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_DAG.py for tasks to queue
+[2025-04-23T23:43:44.646+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:43:44.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:43:44.649+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:43:44.648+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/load_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/load_DAG.py", line 4, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:43:44.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_DAG.py
+[2025-04-23T23:43:44.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_DAG.py took 0.046 seconds

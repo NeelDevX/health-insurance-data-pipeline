@@ -1,0 +1,700 @@
+[2025-04-23T20:16:00.669+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:00.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:16:00.670+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:00.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:00.674+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:00.673+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:16:00.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:00.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T20:16:31.109+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:31.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:16:31.110+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:31.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:31.113+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:16:31.112+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:16:31.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:16:31.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T20:17:01.531+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:01.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:17:01.533+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:01.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:01.536+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:01.535+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:17:01.538+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:01.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.023 seconds
+[2025-04-23T20:17:32.041+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:32.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:17:32.043+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:32.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:32.047+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:17:32.047+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:17:32.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:17:32.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.025 seconds
+[2025-04-23T20:18:02.699+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:02.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:18:02.700+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:02.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:02.703+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:02.702+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:18:02.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:02.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.020 seconds
+[2025-04-23T20:18:33.284+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:33.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:18:33.286+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:33.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:33.290+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:18:33.289+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:18:33.290+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:18:33.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.025 seconds
+[2025-04-23T20:19:03.750+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:03.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:19:03.752+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:03.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:03.754+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:03.754+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:19:03.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:03.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.023 seconds
+[2025-04-23T20:19:34.262+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:34.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:19:34.264+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:34.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:34.266+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:19:34.266+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:19:34.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:19:34.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.022 seconds
+[2025-04-23T20:22:51.741+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:22:51.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:22:51.744+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:22:51.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:22:51.749+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:22:51.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:22:51.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:22:51.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.027 seconds
+[2025-04-23T20:23:22.489+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:22.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:23:22.490+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:22.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:22.497+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:22.495+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:23:22.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:22.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.029 seconds
+[2025-04-23T20:23:53.113+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:53.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:23:53.114+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:53.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:53.119+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:23:53.118+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:23:53.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:23:53.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.027 seconds
+[2025-04-23T20:24:23.897+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:23.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:24:23.899+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:23.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:23.903+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:23.902+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:24:23.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:23.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.029 seconds
+[2025-04-23T20:24:54.459+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:54.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:24:54.460+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:54.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:54.465+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:24:54.464+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:24:54.466+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:24:54.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.028 seconds
+[2025-04-23T20:25:25.010+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:25:25.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:25:25.012+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:25:25.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:25:25.017+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:25:25.015+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:25:25.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:25:25.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.026 seconds
+[2025-04-23T20:26:08.516+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:08.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:26:08.519+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:08.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:08.524+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:08.522+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:26:08.525+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:08.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.037 seconds
+[2025-04-23T20:26:38.911+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:38.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:26:38.912+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:38.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:38.916+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:26:38.915+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:26:38.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:26:38.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T20:27:09.522+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:09.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:27:09.523+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:09.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:09.526+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:09.525+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:27:09.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:09.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.016 seconds
+[2025-04-23T20:27:40.043+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:40.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:27:40.046+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:40.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:40.049+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:27:40.048+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:27:40.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:27:40.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.026 seconds
+[2025-04-23T20:28:10.494+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:10.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:28:10.496+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:10.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:10.500+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:10.498+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:28:10.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:10.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T20:28:41.042+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:41.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:28:41.043+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:41.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:41.046+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:28:41.045+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:28:41.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:28:41.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.028 seconds
+[2025-04-23T20:29:11.632+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:11.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:29:11.634+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:11.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:11.639+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:11.638+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:29:11.639+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:11.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.028 seconds
+[2025-04-23T20:29:42.266+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:42.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:29:42.267+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:42.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:42.270+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:29:42.270+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:29:42.270+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:29:42.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.023 seconds
+[2025-04-23T20:30:13.039+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:13.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:30:13.041+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:13.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:13.056+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:13.054+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:30:13.057+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:13.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.069 seconds
+[2025-04-23T20:30:43.651+0000] {processor.py:161} INFO - Started process (PID=449) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:43.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:30:43.653+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:43.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:43.657+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:30:43.657+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:30:43.657+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:30:43.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.021 seconds
+[2025-04-23T20:31:14.278+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:14.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:31:14.282+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:14.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:14.287+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:14.285+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:31:14.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:14.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.031 seconds
+[2025-04-23T20:31:44.717+0000] {processor.py:161} INFO - Started process (PID=509) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:44.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:31:44.719+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:44.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:44.723+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:31:44.722+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:31:44.723+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:31:44.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T20:32:15.541+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:15.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:32:15.544+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:15.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:15.549+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:15.548+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:32:15.549+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:15.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.029 seconds
+[2025-04-23T20:32:46.101+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:46.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:32:46.102+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:46.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:46.107+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:32:46.106+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:32:46.107+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:32:46.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.027 seconds
+[2025-04-23T20:33:16.619+0000] {processor.py:161} INFO - Started process (PID=599) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:16.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:33:16.622+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:16.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:16.627+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:16.626+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:33:16.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:16.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.036 seconds
+[2025-04-23T20:33:47.176+0000] {processor.py:161} INFO - Started process (PID=629) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:47.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:33:47.178+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:47.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:47.182+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:33:47.181+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:33:47.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:33:47.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.030 seconds
+[2025-04-23T20:34:17.727+0000] {processor.py:161} INFO - Started process (PID=659) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:17.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:34:17.729+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:17.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:17.734+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:17.733+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:34:17.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:17.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.027 seconds
+[2025-04-23T20:34:48.269+0000] {processor.py:161} INFO - Started process (PID=689) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:48.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:34:48.271+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:48.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:48.275+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:34:48.274+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:34:48.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:34:48.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.023 seconds
+[2025-04-23T20:35:18.581+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:35:18.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:35:18.582+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:35:18.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:35:18.585+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:35:18.585+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:35:18.586+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:35:18.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.020 seconds
+[2025-04-23T20:50:26.717+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:26.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:50:26.718+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:26.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:26.723+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:26.722+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:50:26.723+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:26.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.023 seconds
+[2025-04-23T20:50:57.326+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:57.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:50:57.328+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:57.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:57.332+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:50:57.331+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:50:57.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:50:57.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.026 seconds
+[2025-04-23T20:51:27.858+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:27.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:51:27.860+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:27.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:27.864+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:27.863+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:51:27.864+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:27.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.026 seconds
+[2025-04-23T20:51:58.387+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:58.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:51:58.388+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:58.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:58.391+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:51:58.390+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:51:58.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:51:58.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.018 seconds
+[2025-04-23T20:52:28.964+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:52:28.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T20:52:28.967+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:52:28.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:52:28.971+0000] {logging_mixin.py:188} INFO - [2025-04-23T20:52:28.971+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T20:52:28.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T20:52:28.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.026 seconds
+[2025-04-23T21:07:56.304+0000] {processor.py:161} INFO - Started process (PID=905) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:07:56.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:07:56.307+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:07:56.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:07:56.311+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:07:56.310+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:07:56.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:07:56.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.031 seconds
+[2025-04-23T21:08:26.938+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:08:26.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:08:26.939+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:08:26.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:08:26.944+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:08:26.942+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:08:26.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:08:26.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.025 seconds
+[2025-04-23T21:23:53.399+0000] {processor.py:161} INFO - Started process (PID=965) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:23:53.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:23:53.401+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:23:53.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:23:53.405+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:23:53.404+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:23:53.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:23:53.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.027 seconds
+[2025-04-23T21:39:22.295+0000] {processor.py:161} INFO - Started process (PID=995) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:22.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:39:22.299+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:22.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:22.304+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:22.303+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:39:22.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:22.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.052 seconds
+[2025-04-23T21:39:52.908+0000] {processor.py:161} INFO - Started process (PID=1025) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:52.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:39:52.910+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:52.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:52.914+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:39:52.913+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:39:52.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:39:52.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T21:55:19.487+0000] {processor.py:161} INFO - Started process (PID=1055) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:19.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:55:19.488+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:19.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:19.493+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:19.492+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:55:19.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:19.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.032 seconds
+[2025-04-23T21:55:50.034+0000] {processor.py:161} INFO - Started process (PID=1085) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:50.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T21:55:50.035+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:50.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:50.040+0000] {logging_mixin.py:188} INFO - [2025-04-23T21:55:50.039+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T21:55:50.040+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T21:55:50.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.024 seconds
+[2025-04-23T22:35:25.828+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T22:35:25.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T22:35:25.830+0000] {logging_mixin.py:188} INFO - [2025-04-23T22:35:25.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T22:35:25.852+0000] {logging_mixin.py:188} INFO - [2025-04-23T22:35:25.846+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T22:35:25.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T22:35:25.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.085 seconds
+[2025-04-23T23:03:24.148+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:03:24.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T23:03:24.150+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:03:24.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:03:24.156+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:03:24.154+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:03:24.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:03:24.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.033 seconds
+[2025-04-23T23:36:36.190+0000] {processor.py:161} INFO - Started process (PID=1179) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:36:36.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T23:36:36.192+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:36:36.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:36:36.201+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:36:36.199+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:36:36.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:36:36.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.060 seconds
+[2025-04-23T23:39:28.076+0000] {processor.py:161} INFO - Started process (PID=1207) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:39:28.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T23:39:28.077+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:39:28.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:39:28.082+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:39:28.081+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:39:28.082+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:39:28.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.025 seconds
+[2025-04-23T23:43:44.810+0000] {processor.py:161} INFO - Started process (PID=1241) to work on /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:43:44.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/enrichment_DAG.py for tasks to queue
+[2025-04-23T23:43:44.814+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:43:44.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:43:44.836+0000] {logging_mixin.py:188} INFO - [2025-04-23T23:43:44.835+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/enrichment_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/enrichment_DAG.py", line 6, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2025-04-23T23:43:44.837+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/enrichment_DAG.py
+[2025-04-23T23:43:44.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/enrichment_DAG.py took 0.074 seconds

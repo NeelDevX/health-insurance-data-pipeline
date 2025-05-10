@@ -50,7 +50,8 @@ services:
 
   # airflow
   airflow:
-    image: apache/airflow:2.8.1
+    build:
+      context: ./airflow
     container_name: airflow_app
     ports:
       - "8080:8080"
@@ -67,8 +68,11 @@ services:
       _PIP_ADDITIONAL_REQUIREMENTS: apache-airflow-providers-postgres
     volumes:
       - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/scripts:/opt/airflow/scripts
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
+      - ./iceberg_warehouse:/opt/airlflow/iceberg_warehouse
+      - ./notebooks:/opt/airflow/notebooks
     command: >
       bash -c "
         airflow db init &&
