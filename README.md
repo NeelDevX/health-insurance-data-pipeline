@@ -33,8 +33,8 @@ health-insurance-data-pipeline/
 ## In Terminal
 
 ```bash
-cd health-insurance-data-pipeline
 git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
+cd health-insurance-data-pipeline
 
 docker compose up --build
 ````
