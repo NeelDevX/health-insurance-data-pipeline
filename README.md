@@ -36,7 +36,7 @@ health-insurance-data-pipeline/
 
 
 
-## In Terminal
+## Instructions
 
 ```bash
 git clone https://github.com/NeelDevX/health-insurance-data-pipeline.git
