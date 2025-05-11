@@ -21,7 +21,8 @@ This project aims to streamline how hospitals and insurance providers analyze he
 health-insurance-data-pipeline/
 ├── docs/
 │   ├── Healthcare_Project_Report.pdf
-│   └── Presentation_Slides.pdf
+│   └── Milestone_2_15April2025.pptx
+│   └── Milestone_3_06May2025.pptx
 ├── Dockerfile                    # Spark + Iceberg + Jupyter base image
 ├── docker-compose.yml           # Multi-container orchestration
 ├── Code/                        # Jupyter notebooks (Bronze → Silver → Gold)
@@ -47,5 +48,5 @@ docker compose up --build
 ## Project Materials
 
 📄 [Project Report](docs/Healthcare_Project_Report.pdf)  
-🎞️ [Milestone 2 Slides](docs/Milestone_2_(15_April_2025).pdf)  
-🎞️ [Milestone 3 Slides](docs/Milestone_3_(06_May_2025).pdf)  
+🎞️ [Milestone 2 Slides](docs/Milestone_2_15April2025.pptx)  
+🎞️ [Milestone 3 Slides](docs/Milestone_3_06May2025.pptx)  
